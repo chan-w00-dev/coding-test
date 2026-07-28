@@ -1,0 +1,9 @@
+{
+  "problem": "중복된 문자 제거",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120888",
+  "accuracy": "87%",
+  "cases": [
+    { "input": ["people"], "output": "peol" },
+    { "input": ["We are the world"], "output": "We arthwold" }
+  ]
+}
