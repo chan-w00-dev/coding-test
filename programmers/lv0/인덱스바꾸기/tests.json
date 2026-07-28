@@ -1,0 +1,9 @@
+{
+  "problem": "인덱스 바꾸기",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120895",
+  "accuracy": "89%",
+  "cases": [
+    { "input": ["hello", 1, 2], "output": "hlelo" },
+    { "input": ["I love you", 3, 6], "output": "I l veoyou" }
+  ]
+}
