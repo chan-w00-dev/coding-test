@@ -1,0 +1,9 @@
+{
+  "problem": "암호 해독",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120892",
+  "accuracy": "89%",
+  "cases": [
+    { "input": ["dfjardstddetckdaccccdegk", 4], "output": "attack" },
+    { "input": ["pfqallllabwaoclk", 2], "output": "fallback" }
+  ]
+}
