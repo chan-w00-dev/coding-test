@@ -1,0 +1,9 @@
+{
+  "problem": "잘라서 배열로 저장하기",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120913",
+  "accuracy": "85%",
+  "cases": [
+    { "input": ["abc1Addfggg4556b", 6], "output": ["abc1Ad", "dfggg4", "556b"] },
+    { "input": ["abcdef123", 3], "output": ["abc", "def", "123"] }
+  ]
+}
