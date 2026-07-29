@@ -1,0 +1,9 @@
+{
+  "problem": "가까운 수",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120890",
+  "accuracy": "86%",
+  "cases": [
+    { "input": [[3, 10, 28], 20], "output": 28 },
+    { "input": [[10, 11, 12], 13], "output": 12 }
+  ]
+}
