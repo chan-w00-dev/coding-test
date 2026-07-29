@@ -5,6 +5,7 @@ list 끝 접근 -> 음수 인덱싱(ex.arr[-1])
 
 ## 순회
 배열의 요소를 조합하고 싶을 떄 -> itertools.combinations
+건너뛰며 순회 -> range(start, stop, step)
 
 ## 정렬
 튜플 정렬 기준 -> min(data, key = lambda x : 1순위, 2순위 ...)

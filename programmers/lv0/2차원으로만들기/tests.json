@@ -1,0 +1,9 @@
+{
+  "problem": "2차원으로 만들기",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120842",
+  "accuracy": "87%",
+  "cases": [
+    { "input": [[1, 2, 3, 4, 5, 6, 7, 8], 2], "output": [[1, 2], [3, 4], [5, 6], [7, 8]] },
+    { "input": [[100, 95, 2, 4, 5, 6, 18, 33, 948], 3], "output": [[100, 95, 2], [4, 5, 6], [18, 33, 948]] }
+  ]
+}
