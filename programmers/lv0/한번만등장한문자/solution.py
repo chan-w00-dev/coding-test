@@ -2,11 +2,13 @@ from collections import Counter
 
 def solution(s):
     d = Counter(s)
-    answer = []
+    # answer = []
 
-    for x in d:
-        if d[x] == 1:
-            answer.append(x)
+    # for x in d:
+    #     if d[x] == 1:
+    #         answer.append(x)
+
+    answer = [x for x in d if d[x] == 1]
 
     return "".join(sorted(answer))
             
