@@ -3,6 +3,7 @@
 ## 슬라이싱
 
 ## 순회
+배열의 요소를 조합하고 싶을 떄 -> itertools.combinations
 
 ## 정렬
 튜플 정렬 기준 -> min(data, key = lambda x : 1순위, 2순위 ...)
@@ -18,3 +19,5 @@ collections.Counter - list, string 안의 요소 횟수 세기
 반복문 대신 list = [x for ... in ... if ...]
 
 ## 함수형
+
+max()/min()/sum() -> 반복문 대신 제네레이터 표현식으로 가능
