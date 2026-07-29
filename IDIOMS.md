@@ -15,4 +15,6 @@ dict.fromkeys -> list를 인자로 받고 list 안의 원소를 키로 하는 �
 collections.Counter - list, string 안의 요소 횟수 세기
 ## 컴프리헨션
 
+반복문 대신 list = [x for ... in ... if ...]
+
 ## 함수형

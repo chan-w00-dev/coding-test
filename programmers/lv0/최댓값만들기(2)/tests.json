@@ -1,0 +1,10 @@
+{
+  "problem": "최댓값 만들기 (2)",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120862",
+  "accuracy": "89%",
+  "cases": [
+    { "input": [[1, 2, -3, 4, -5]], "output": 15 },
+    { "input": [[0, -31, 24, 10, 1, 9]], "output": 240 },
+    { "input": [[10, 20, 30, 5, 5, 20, 5]], "output": 600 }
+  ]
+}
