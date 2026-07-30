@@ -1,0 +1,9 @@
+{
+  "problem": "숨어있는 숫자의 덧셈 (2)",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120864",
+  "accuracy": "86%",
+  "cases": [
+    { "input": ["aAb1B2cC34oOp"], "output": 37 },
+    { "input": ["1a2b3c4d123Z"], "output": 133 }
+  ]
+}
