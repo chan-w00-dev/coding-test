@@ -9,6 +9,9 @@ def solution(letter):
     answer = []
     words = letter.split()
 
-    for key in words:
-        answer.append(morse[key])
+    # for key in words:
+    #     answer.append(morse[key])
+    answer = [morse[key] for key in words]
+    
+
     return "".join(answer)
