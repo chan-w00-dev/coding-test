@@ -1,0 +1,10 @@
+{
+  "problem": "소인수분해",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120852",
+  "accuracy": "84%",
+  "cases": [
+    { "input": [12], "output": [2, 3] },
+    { "input": [17], "output": [17] },
+    { "input": [420], "output": [2, 3, 5, 7] }
+  ]
+}
