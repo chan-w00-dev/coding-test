@@ -24,6 +24,7 @@ collections.Counter - list, string 안의 요소 횟수 세기
 ## 함수형
 
 max()/min()/sum() -> 반복문 대신 제네레이터 표현식으로 가능
+any()/all() -> 입력값 중 null값이 하나라도 있냐/ 전체냐 TRUE, FALSE 반환
 
 ## 정규표현식
 
