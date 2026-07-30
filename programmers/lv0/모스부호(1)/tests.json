@@ -1,0 +1,9 @@
+{
+  "problem": "모스부호 (1)",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120838",
+  "accuracy": "86%",
+  "cases": [
+    { "input": [".... . .-.. .-.. ---"], "output": "hello" },
+    { "input": [".--. -.-- - .... --- -."], "output": "python" }
+  ]
+}
