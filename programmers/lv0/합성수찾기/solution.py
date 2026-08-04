@@ -7,13 +7,6 @@ def is_prime(n):
     return True
 
 def solution(n):
-    answer = []
-
-    # 소수 제거
-    for x in range(4,n+1):
-        if is_prime(x):
-            continue
-        else :
-            answer.append(x)
+    answer = [x for x in range(4,n+1) if not is_prime(x)]
 
     return len(answer)
