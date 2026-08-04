@@ -1,0 +1,9 @@
+{
+  "problem": "합성수 찾기",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120846",
+  "accuracy": "88%",
+  "cases": [
+    { "input": [10], "output": 5 },
+    { "input": [15], "output": 8 }
+  ]
+}
