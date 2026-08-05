@@ -1,0 +1,11 @@
+{
+  "problem": "문자열 밀기",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120921",
+  "accuracy": "76%",
+  "cases": [
+    { "input": ["hello", "ohell"], "output": 1 },
+    { "input": ["apple", "elppa"], "output": -1 },
+    { "input": ["atat", "tata"], "output": 1 },
+    { "input": ["abc", "abc"], "output": 0 }
+  ]
+}
