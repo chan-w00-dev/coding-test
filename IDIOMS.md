@@ -15,6 +15,8 @@ list 끝 접근 -> 음수 인덱싱(ex.arr[-1])
 
 문자열에서 중복된 문자 제거 -> dict.fromkeys() 활용
 dict.fromkeys -> list를 인자로 받고 list 안의 원소를 키로 하는 딕셔너리 생성
+중복을 허용하지 않은 집합 -> set()
+set 비교 -> 동등 비교, 포함 관계 비교
 
 collections.Counter - list, string 안의 요소 횟수 세기
 ## 컴프리헨션

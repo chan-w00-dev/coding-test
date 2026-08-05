@@ -1,11 +1,7 @@
 def solution(spell, dic):
-    s = "".join(sorted(spell))
+    s = set(spell)
 
-    for x in dic:
-        d = "".join(dict.fromkeys(sorted(x)))
+    return int(any(d for d in dic if s == set(d))) or 2
 
-        if s == d:
-            return 1
 
-    return 2
         
