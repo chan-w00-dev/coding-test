@@ -1,0 +1,10 @@
+{
+  "problem": "최빈값 구하기",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120812",
+  "accuracy": "71%",
+  "cases": [
+    { "input": [[1, 2, 3, 3, 3, 4]], "output": 3 },
+    { "input": [[1, 1, 2, 2]], "output": -1 },
+    { "input": [[1]], "output": 1 }
+  ]
+}
