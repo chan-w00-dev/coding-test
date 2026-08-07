@@ -2,10 +2,13 @@ from collections import Counter
 
 def solution(array):
     array_counts = Counter(array)
-    max_val = max(array_counts.values())
-    max_keys = [n for n, count in array_counts.items() if count == max_val]
+    
+    if len(array) == 1:
+        return array[0]
+    
+    top_two = array_counts.most_common(2)
 
-    if len(max_keys) > 1:
+    if top_two[0][1] == top_two[1][1]:
         return -1
     else :
-        return max_keys[0]
+        return top_two[0][0]
