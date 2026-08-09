@@ -1,6 +1,5 @@
 def solution(board):
     n = len(board)
-    answer = 0
     for i in range(n):
         for j in range(n):
 
@@ -12,9 +11,4 @@ def solution(board):
                             if board[r][c] == 0:
                                 board[r][c] = 2
 
-    for i in range(n):
-        for j in range(n):
-            if board[i][j] == 0:
-                answer += 1
-
-    return answer
+    return sum(1 for row in board for i in row if i == 0)
