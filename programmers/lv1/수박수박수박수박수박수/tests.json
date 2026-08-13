@@ -1,0 +1,9 @@
+{
+  "problem": "수박수박수박수박수박수?",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12922",
+  "accuracy": "85%",
+  "cases": [
+    { "input": [3], "output": "수박수" },
+    { "input": [4], "output": "수박수박" }
+  ]
+}
