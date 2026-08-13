@@ -46,7 +46,7 @@
 
 ## 구조
 
-    programmers/lv0/<문제명>/
+    programmers/lv<N>/<문제명>/
     ├── problem.md    문제 설명 + 원본 링크
     ├── solution.py   풀이
     ├── tests.json    입출력 예시
