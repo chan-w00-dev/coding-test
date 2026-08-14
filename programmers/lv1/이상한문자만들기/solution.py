@@ -2,13 +2,10 @@ def solution(s):
     arr = s.split(" ")
     answer = []
     for word in arr:
-        for i, char in enumerate(word):
-            if i%2 == 0:
-                answer.append(char.upper())
-            else:
-                answer.append(char.lower())
-        answer.append(" ")
+        w = [char.upper() if i%2 == 0 else char.lower() for i, char in enumerate(word)]
+        answer.append("".join(w))
         
-    return "".join(answer[:-1])
+    return " ".join(answer)
+
 
 
