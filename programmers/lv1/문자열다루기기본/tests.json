@@ -1,0 +1,9 @@
+{
+  "problem": "문자열 다루기 기본",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12918",
+  "accuracy": "82%",
+  "cases": [
+    { "input": ["a234"], "output": false },
+    { "input": ["1234"], "output": true }
+  ]
+}
