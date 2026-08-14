@@ -1,6 +1,4 @@
 def solution(arr):
-    answer = [arr[0]]
-    for n in arr:
-        if answer[-1] != n:
-            answer.append(n)
+    l = [(arr[0]+1)] + arr[:]
+    answer = [a for a,b in zip(arr,l) if a != b]
     return answer

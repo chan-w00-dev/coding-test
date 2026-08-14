@@ -11,6 +11,7 @@ list 끝 접근 -> 음수 인덱싱(ex.arr[-1])
 건너뛰며 순회 -> range(start, stop, step)
 리스트의 인덱스와 내용 모두 접근하고 싶을 때 -> enumerate
 딕서녀리 key, value 모두 순회 -> dict.items()
+리스트에서 연속된 요소 비교 -> arr와 한 칸 밀린 arr zip 활용
 
 ## 정렬
 튜플 정렬 기준 -> min(data, key = lambda x : 1순위, 2순위 ...)
