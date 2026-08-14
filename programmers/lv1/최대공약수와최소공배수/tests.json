@@ -1,0 +1,9 @@
+{
+  "problem": "최대공약수와 최소공배수",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12940",
+  "accuracy": "79%",
+  "cases": [
+    { "input": [3, 12], "output": [3, 12] },
+    { "input": [2, 5], "output": [1, 10] }
+  ]
+}
