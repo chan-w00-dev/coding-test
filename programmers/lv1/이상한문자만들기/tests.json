@@ -1,0 +1,8 @@
+{
+  "problem": "이상한 문자 만들기",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12930",
+  "accuracy": "77%",
+  "cases": [
+    { "input": ["try hello world"], "output": "TrY HeLlO WoRlD" }
+  ]
+}
