@@ -43,7 +43,7 @@
 | [가운데 글자 가져오기](programmers/lv1/가운데글자가져오기) | Lv1 | 85% | ✅ | ✅ | if-elif를 슬라이싱으로 통합 |
 | [수박수박수박수박수박수?](programmers/lv1/수박수박수박수박수박수) | Lv1 | 85% | ✅ | ✅ | 문자열 * (조건식)으로 if-else 대체 |
 | [문자열 내림차순으로 배치하기](programmers/lv1/문자열내림차순으로배치하기) | Lv1 | 84% | ✅ | ✅ | sorted(reverse=True) + join |
-| [문자열 다루기 기본](programmers/lv1/문자열다루기기본) | Lv1 | 82% | ✅ | | |
+| [문자열 다루기 기본](programmers/lv1/문자열다루기기본) | Lv1 | 82% | ✅ | ✅ | in (a,b,...) 멤버십 체크, return 조건식 직접 반환 |
 
 ## 로컬 테스트
 

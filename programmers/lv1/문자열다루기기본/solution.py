@@ -1,5 +1,2 @@
 def solution(s):
-    if len(s) == 4 or len(s) == 6:
-        if s.isdigit():
-            return True
-    return False
+    return len(s) in (4,6) and s.isdigit()
