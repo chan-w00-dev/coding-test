@@ -1,0 +1,9 @@
+{
+  "problem": "카드 뭉치",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/159994",
+  "accuracy": "72%",
+  "cases": [
+    { "input": [["i", "drink", "water"], ["want", "to"], ["i", "want", "to", "drink", "water"]], "output": "Yes" },
+    { "input": [["i", "water", "drink"], ["want", "to"], ["i", "want", "to", "drink", "water"]], "output": "No" }
+  ]
+}
