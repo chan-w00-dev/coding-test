@@ -1,0 +1,10 @@
+{
+  "problem": "폰켓몬",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/1845",
+  "accuracy": "69%",
+  "cases": [
+    { "input": [[3, 1, 2, 3]], "output": 2 },
+    { "input": [[3, 3, 3, 2, 2, 4]], "output": 3 },
+    { "input": [[3, 3, 3, 2, 2, 2]], "output": 2 }
+  ]
+}
