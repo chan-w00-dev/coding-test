@@ -7,7 +7,6 @@ def solution(n):
             for j in range(i*i, n+1, i):
                 prime[j] = False
 
-    return len([i for i in range(n+1) if prime[i]])
-    
+    return sum(prime)
 
 
