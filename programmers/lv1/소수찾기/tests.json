@@ -1,0 +1,9 @@
+{
+  "problem": "소수 찾기",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12921",
+  "accuracy": "64%",
+  "cases": [
+    { "input": [10], "output": 4 },
+    { "input": [5], "output": 3 }
+  ]
+}
