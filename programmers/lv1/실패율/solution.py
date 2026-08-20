@@ -2,7 +2,13 @@ from collections import Counter
 
 def solution(N, stages):
     cnt = Counter(stages)
-    reach = [sum(cnt[i] for i in range(1,N+2) if i >= j) for j in range(1,N+1)]
+
+    s = cnt[N+1]
+    reach =[0] * N
+    for i in range(N,0,-1):
+        s+=cnt[i]
+        reach[i-1] = s
+
     fail = [cnt[i] for i in range(1,N+1)]
     
     fail_ratio = [f/r if r != 0 else 0 for f,r in zip(fail,reach)]
