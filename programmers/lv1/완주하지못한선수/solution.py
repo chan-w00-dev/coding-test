@@ -4,6 +4,6 @@ def solution(participant, completion):
     cntCompletion = Counter(completion)
 
     rest = cntParticipant - cntCompletion
-    answer = list(rest.elements())[0]
-    
+    answer = next(iter(rest))
+
     return answer
