@@ -1,0 +1,10 @@
+{
+  "problem": "완주하지 못한 선수",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42576",
+  "accuracy": "60%",
+  "cases": [
+    { "input": [["leo", "kiki", "eden"], ["eden", "kiki"]], "output": "leo" },
+    { "input": [["marina", "josipa", "nikola", "vinko", "filipa"], ["josipa", "filipa", "marina", "nikola"]], "output": "vinko" },
+    { "input": [["mislav", "stanko", "mislav", "ana"], ["stanko", "ana", "mislav"]], "output": "mislav" }
+  ]
+}
