@@ -1,22 +1,19 @@
 def solution(n, lost, reserve):
-    hasCloth = [True] * n
-    t=list(set(lost) & set(reserve))
+    t=set(lost) & set(reserve)
 
-    for x in t:
-        lost.remove(x)
-        reserve.remove(x)
+    lost = set([x for x in lost if x not in t])
+    reserve = set([x for x in reserve if x not in t])
 
-    for i in lost:
-        hasCloth[i-1] = False
+    hasCloth = [False if i+1 in lost else True for i in range(n)]
 
     for i, cloth in enumerate(hasCloth):
         if not cloth:
             if i in reserve:
                 hasCloth[i] = True
-                reserve.remove(i)
+                reserve.discard(i)
             elif i+2 in reserve:
                 hasCloth[i] = True
-                reserve.remove(i+2)
+                reserve.discard(i+2)
 
     return sum(hasCloth)
 
