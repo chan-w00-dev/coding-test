@@ -1,6 +1,10 @@
 def solution(dartResult):   
     num = [str(x) for x in range(0,11)]
-    bonus = ["S","D","T"]
+    bonus_dict = {
+        "S" : 1,
+        "D" : 2,
+        "T" : 3
+    }
     option = ["*","#"]
     idx = 0
     score = [0] * 3
@@ -15,11 +19,8 @@ def solution(dartResult):
         elif x in num:
             score[idx] = int(x)
 
-        if x in bonus:
-            if x == "D":
-                score[idx] = score[idx] ** 2
-            elif x == "T":
-                score[idx] = score[idx] ** 3
+        if x in bonus_dict:
+            score[idx] = score[idx] ** bonus_dict.get(x)
             idx += 1
 
         if x in option:
@@ -30,7 +31,7 @@ def solution(dartResult):
             elif x == "*" and idx == 1:
                 score[idx-1] *= 2
 
-            if x == "#":
+            elif x == "#":
                 score[idx-1] *= -1
 
     return sum(score)
