@@ -4,17 +4,14 @@ def solution(board, moves):
     N = len(board)
 
     for m in moves:
-        m = m-1
-        i = 0   
-         
-        while N > i and board[i][m] == 0:
-            i += 1
+        j = m-1
+        i = next((i for i, row in enumerate(board) if row[j] != 0), N)
 
         if i == N:
             continue
 
-        x = board[i][m]
-        board[i][m] = 0
+        x = board[i][j]
+        board[i][j] = 0
         
 
         if basket and basket[-1] == x:
