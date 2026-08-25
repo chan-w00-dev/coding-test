@@ -5,6 +5,8 @@
 
 def solution(numbers, hand):
     keypad = [[1,2,3],[4,5,6],[7,8,9],[-1,0,-2]]
+    pos = {val:(r,c) for r, row in enumerate(keypad) for c, val in enumerate(row)}
+
     L = -1
     R = -2
     answer = ""
@@ -17,30 +19,27 @@ def solution(numbers, hand):
 
 #2. 2,5,8,0 차례 왼손 오른손 거리확인(로직 필요)
         else :
-            # print(n,L,R)
-            for r, row in enumerate(keypad):
-                for c, val in enumerate(row):
-                    if val == n:
-                        indexN = (r,c)
-                    if val == R:
-                        indexR = (r,c)
-                    if val == L:
-                        indexL = (r,c)
+            index_N = pos[n]
+            index_R = pos[R]
+            index_L = pos[L]
 
-            distanceL = abs(indexN[0]-indexL[0])+abs(indexN[1]-indexL[1])
-            distanceR = abs(indexN[0]-indexR[0])+abs(indexN[1]-indexR[1])
-            # print(indexN,indexL,indexR)
-            # print(distanceL,distanceR)
+            distance_L = abs(index_N[0]-index_L[0])+abs(index_N[1]-index_L[1])
+            distance_R = abs(index_N[0]-index_R[0])+abs(index_N[1]-index_R[1])
 
-            if distanceL > distanceR:
-                R = n
-            elif distanceR > distanceL:
-                L = n
-            else:
-                if hand == "right":
-                    R = n
-                else : 
-                    L = n
+            # if distance_L > distance_R:
+            #     R = n
+            # elif distance_R > distance_L:
+            #     L = n
+            # else:
+            #     if hand == "right":
+            #         R = n
+            #     else : 
+            #         L = n
+
+            chosen_hand = min([["l",distance_L],["r",distance_R]], key = lambda x: (x[1], x[0] != hand[0]))
+
+            if chosen_hand[0].upper() == "L": L = n
+            else : R = n
 
         if n == R:
             answer += "R"
