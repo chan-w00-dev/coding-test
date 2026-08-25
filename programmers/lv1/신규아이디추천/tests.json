@@ -1,0 +1,12 @@
+{
+  "problem": "신규 아이디 추천",
+  "url": "https://school.programmers.co.kr/learn/courses/30/lessons/72410",
+  "accuracy": "53%",
+  "cases": [
+    { "input": ["...!@BaT#*..y.abcdefghijklm"], "output": "bat.y.abcdefghi" },
+    { "input": ["z-+.^."], "output": "z--" },
+    { "input": ["=.="], "output": "aaa" },
+    { "input": ["123_.def"], "output": "123_.def" },
+    { "input": ["abcdefghijklmn.p"], "output": "abcdefghijklmn" }
+  ]
+}
