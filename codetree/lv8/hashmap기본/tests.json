@@ -1,0 +1,10 @@
+{
+  "problem": "hashmap 기본",
+  "url": "https://edu.codetree.ai/hanyang/class/204/learn/lecture/2071/curated-cards/intro-hashmap-basic/introduction",
+  "cases": [
+    {
+      "input": "11\nadd 3 5\nadd 10000 1\nfind 3\nfind 5\nfind 10000\nadd 3 10\nfind 3\nadd 7 15\nremove 3\nremove 7\nfind 7\n",
+      "output": "5\nNone\n1\n10\nNone\n"
+    }
+  ]
+}
