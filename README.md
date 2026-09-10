@@ -72,10 +72,21 @@
 |---|---|---|
 | [hashmap 기본](codetree/lv8/hashmap기본) | 레벨 8 | ✅ |
 
+## C++ 진행 현황
+
+**1 / 1** (Lv0, 1차 완료)
+
+| 문제 | 레벨 | 1차 | 2차 | 익힌 관용구 |
+|---|---|---|---|---|
+| [대소문자 바꿔서 출력하기](cpp/programmers/lv0/대소문자바꿔서출력하기) | Lv0 | ✅ | | |
+
 ## 로컬 테스트
 
-    python3 scripts/run_tests.py <문제 폴더명>
-    python3 scripts/run_tests.py              # 전체
+    python3 scripts/run_tests.py <문제 폴더명>       # Python (programmers, codetree)
+    python3 scripts/run_tests.py                     # 전체
+
+    python3 scripts/run_cpp_tests.py <문제 폴더명>   # C++ (cpp/)
+    python3 scripts/run_cpp_tests.py                 # 전체
 
 ## 구조
 
@@ -84,3 +95,18 @@
     ├── solution.py   풀이
     ├── tests.json    입출력 예시
     └── note.md       배운 것
+
+    codetree/lv<N>/<문제명>/
+    ├── problem.md    문제 설명 + 원본 링크
+    ├── solution.py   풀이 (stdin/stdout)
+    └── tests.json    입출력 예시 (stdin/stdout 원문)
+
+    cpp/codetree/lv<N>/<문제명>/
+    ├── problem.md    문제 설명 + 원본 링크
+    ├── solution.cpp  풀이 (stdin/stdout)
+    └── tests.json    입출력 예시 (stdin/stdout 원문)
+
+    cpp/programmers/lv<N>/<문제명>/
+    ├── problem.md    문제 설명 + 원본 링크
+    ├── solution.cpp  풀이 (stdin/stdout)
+    └── tests.json    입출력 예시 (stdin/stdout 원문)
