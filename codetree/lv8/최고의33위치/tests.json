@@ -1,0 +1,14 @@
+{
+  "problem": "최고의 33위치",
+  "url": "https://edu.codetree.ai/hanyang/class/399/learn/lecture/4293/curated-cards/intro-best-place-of-33/description",
+  "cases": [
+    {
+      "input": "3\n1 0 1\n0 1 0\n0 1 0\n",
+      "output": "4\n"
+    },
+    {
+      "input": "5\n0 0 0 1 1\n1 0 1 1 1\n0 1 0 1 0\n0 1 0 1 0\n0 0 0 1 1\n",
+      "output": "6\n"
+    }
+  ]
+}
